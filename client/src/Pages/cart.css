@@ -1,0 +1,85 @@
+.buy-card-img {
+    width: 100%;
+    height: auto;
+}
+
+.buy-info-1 {
+    color: rgb(255, 53, 53);
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 2px;
+}
+
+.buy-quantity {
+    width: 10%;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.plus-minus {
+    color: rgb(231, 139, 139);
+    cursor: pointer;
+}
+
+.buy-quantity::-webkit-outer-spin-button,
+.buy-quantity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.buy-quantity {
+    width: 5%;
+}
+
+.checkout-btn {
+    background-color: rgb(233, 247, 48);
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 7px 3px rgba(92, 100, 61, 0.411);
+    text-align: center;
+    border: none;
+    font-weight: 500;
+
+}
+
+.checkout-btn:hover {
+    background-color: greenyellow;
+    transition: 0.2s;
+}
+
+.assuredLogo1 {
+    width: 4%;
+    height: 20px;
+    background-color: transparent;
+    padding: 0px !important;
+}
+
+.assuredLogo2 {
+    width: 10%;
+    height: 5%;
+    margin: -6px;
+    border-radius: 20px;
+    padding: 0px !important;
+    align-items: start;
+}
+
+
+#sm-price {
+    display: none;
+}
+
+@media only screen and (max-width:1000px) {
+
+    #lg-price {
+        display: none !important;
+    }
+
+    #sm-price {
+        display: block;
+    }
+
+}
