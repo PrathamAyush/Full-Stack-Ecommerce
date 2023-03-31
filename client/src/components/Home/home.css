@@ -1,0 +1,125 @@
+/*Site Banner Styling/homeCover.js*/
+.text-style {
+    text-align: center;
+    color: rgb(247, 247, 247);
+    padding-top: 100px;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: "Sofia", sans-serif;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+.banner-img {
+    background-size: 100%;
+    background-image: url(../../Images/BannerImg/Ecommerce-fashion-industry.jpg);
+    height: 350px;
+}
+
+.banner-p-text {
+    font-size: 2vw;
+    color: rgb(221, 247, 247);
+
+}
+
+.product-head {
+    font-weight: bolder;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/*Slide-Style / FeaturedProductSlider.js*/
+.featured-product {
+    background-color: rgb(238, 233, 233);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.btn-cart {
+    width: 70%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(149, 248, 36);
+    color: solid black;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    padding: 2px;
+    margin: 10px;
+}
+
+.img-style {
+    width: 70%;
+    height: 200px;
+}
+
+.pd-card-img {
+    width: auto;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -8px 14px 32px 5px rgba(127, 188, 223, 0.8);
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* Slider Button */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: rgba(245, 60, 60, 0.658);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* BrackPoints */
+#carouselExampleInterval {
+    display: block;
+}
+
+#productCards {
+    display: none;
+}
+
+@media only screen and (max-width:800px) {
+    #carouselExampleInterval {
+        display: none;
+    }
+
+    #productCards {
+        display: block;
+    }
+}
