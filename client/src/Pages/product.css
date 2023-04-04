@@ -1,0 +1,30 @@
+.text-style-logo {
+    text-align: center;
+    color: rgb(89, 153, 248);
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: "Sofia", sans-serif;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+.card-size {
+    width: 17rem;
+}
+
+.btn-cart-allProduct {
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(149, 248, 36);
+    color: solid black;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    padding: 2px;
+    margin: 10px;
+    display: flex;
+}
